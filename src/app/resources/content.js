@@ -55,7 +55,7 @@ const home = {
   headline: <>Mern-Stack Developer</>,
   subline: (
     <>
-      I'm Boluwatife, a Full-stack developer with expertise in web development, driven to leverage technical <br/>skills to deliver innovative solutions. Proficient in cutting-edge technologies, including UI/UX design, HTML5, CSS3, JavaScript, ReactJS, Next.js, Gulp.js, Three.js, Tailwind css, Bootstrap.
+      I'm Boluwatife, a Full-stack developer with expertise in web development, driven to leverage technical skills to deliver innovative solutions. Proficient in cutting-edge technologies, including UI/UX design, HTML5, CSS3, JavaScript, ReactJS, Next.js, mongoDb, nodejs, Express js, Tailwind css, Bootstrap.
     </>
   ),
 };
@@ -80,9 +80,7 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Boluwatife is a Full-stack developer with expertise in web development, driven to leverage technical skills to deliver innovative solutions. Proficient in cutting-edge technologies, including UI/UX design, HTML5, CSS3, JavaScript, ReactJS, Next.js, mongoDb, nodejs, Express js, Tailwind css, Bootstrap.
       </>
     ),
   },
@@ -114,22 +112,22 @@ const about = {
           },
         ],
       },
-      {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
-        achievements: [
-          <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
-          </>,
-          <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
-          </>,
-        ],
-        images: [],
-      },
+      // {
+      //   company: "Creativ3",
+      //   timeframe: "2018 - 2022",
+      //   role: "Lead Designer",
+      //   achievements: [
+      //     <>
+      //       Developed a design system that unified the brand across multiple platforms, improving
+      //       design consistency by 40%.
+      //     </>,
+      //     <>
+      //       Led a cross-functional team to launch a new product line, contributing to a 15% increase
+      //       in overall company revenue.
+      //     </>,
+      //   ],
+      //   images: [],
+      // },
     ],
   },
   studies: {
