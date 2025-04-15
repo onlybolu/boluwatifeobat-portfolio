@@ -8,7 +8,7 @@ const person = {
   },
   role: "Mern-stack Developer",
   avatar: "/images/avatar.jpg",
-  location: "CAT", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  location: "Nigeria/lagos", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English"], // optional: Leave the array empty if you don't want to display languages
 };
 
@@ -234,7 +234,7 @@ const blog = {
 const work = {
   label: "Projects",
   title: "My projects",
-  description: `Design and dev projects by ${person.name}`,
+  description: `Dev projects by ${person.name}`,
   // Create new project pages by adding a new .mdx file to app/blog/posts
   // All projects will be listed on the /home and /work routes
 };
