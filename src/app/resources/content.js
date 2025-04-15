@@ -8,7 +8,7 @@ const person = {
   },
   role: "Mern-stack Developer",
   avatar: "/images/avatar.jpg",
-  location: "UTC", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  location: "CAT", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English"], // optional: Leave the array empty if you don't want to display languages
 };
 
