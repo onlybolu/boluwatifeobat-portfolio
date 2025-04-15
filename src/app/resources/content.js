@@ -55,8 +55,7 @@ const home = {
   headline: <>Mern-Stack Developer</>,
   subline: (
     <>
-      I'm Boluwatife, a Full-stack developer at <InlineCode>FLY</InlineCode>, where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      I'm Boluwatife, a Full-stack developer with expertise in web development, driven to leverage technical <br/>skills to deliver innovative solutions. Proficient in cutting-edge technologies, including UI/UX design, HTML5, CSS3, JavaScript, ReactJS, Next.js, Gulp.js, Three.js, Tailwind css, Bootstrap.
     </>
   ),
 };
