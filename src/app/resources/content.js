@@ -29,12 +29,12 @@ const social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system/nextjs-starter",
+    link: "https://github.com/onlybolu",
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "https://www.linkedin.com/in/boluwatife-obateru-167765282/",
   },
   {
     name: "X",
@@ -94,18 +94,16 @@ const about = {
         role: "Frontend Developer",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+           Successfully developed responsive and visually appealing user interfaces using Next.js, and Bootstrap, ensuring seamless user experiences.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+           Refactored and optimized frontend code, making it more efficient and maintainable.
           </>,
         ],
         images: [
           // optional: leave the array empty if you don't want to display images
           {
-            src: "/images/projects/project-01/cover-01.jpg",
+            src: "/images/projects/project-01/cover-01.jpeg",
             alt: "Once UI Project",
             width: 16,
             height: 9,
@@ -169,16 +167,57 @@ const about = {
       },
       {
         title: "Next.js",
-        description: <>Building next gen apps with Next.js + mongoDb + nodejs.</>,
+        description: <></>,
         // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
+        images: [  ],
+      },
+      {
+        title: "React.js",
+        description: <></>,
+        // optional: leave the array empty if you don't want to display images
+        images: [  ],
+      },
+      {
+        title: "Javascript",
+        description: <></>,
+        // optional: leave the array empty if you don't want to display images
+        images: [  ],
+      },
+      {
+        title: "Tailwind css",
+        description: <></>,
+        // optional: leave the array empty if you don't want to display images
+        images: [  ],
+      },
+      {
+        title: "Bootstarp",
+        description: <></>,
+        // optional: leave the array empty if you don't want to display images
+        images: [  ],
+      },
+      {
+        title: "CSS",
+        description: <></>,
+        // optional: leave the array empty if you don't want to display images
+        images: [  ],
+      },
+      {
+        title: "Express.js",
+        description: <></>,
+        // optional: leave the array empty if you don't want to display images
+        images: [  ],
+      },
+      {
+        title: "Node.js",
+        description: <></>,
+        // optional: leave the array empty if you don't want to display images
+        images: [  ],
+      },
+      {
+        title: "MongoDB",
+        description: <></>,
+        // optional: leave the array empty if you don't want to display images
+        images: [  ],
       },
     ],
   },
@@ -193,90 +232,90 @@ const blog = {
 };
 
 const work = {
-  label: "Work",
+  label: "Projects",
   title: "My projects",
   description: `Design and dev projects by ${person.name}`,
   // Create new project pages by adding a new .mdx file to app/blog/posts
   // All projects will be listed on the /home and /work routes
 };
 
-const gallery = {
-  label: "Gallery",
-  title: "My photo gallery",
-  description: `A photo collection by ${person.name}`,
-  // Images from https://pexels.com
-  images: [
-    {
-      src: "/images/gallery/img-01.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/img-02.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/img-03.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/img-04.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/img-05.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/img-06.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/img-07.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/img-08.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/img-09.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/img-10.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/img-11.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/img-12.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/img-13.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/img-14.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-  ],
-};
+// const gallery = {
+//   label: "Gallery",
+//   title: "My photo gallery",
+//   description: `A photo collection by ${person.name}`,
+//   // Images from https://pexels.com
+//   images: [
+//     {
+//       src: "/images/gallery/img-01.jpg",
+//       alt: "image",
+//       orientation: "vertical",
+//     },
+//     {
+//       src: "/images/gallery/img-02.jpg",
+//       alt: "image",
+//       orientation: "horizontal",
+//     },
+//     {
+//       src: "/images/gallery/img-03.jpg",
+//       alt: "image",
+//       orientation: "vertical",
+//     },
+//     {
+//       src: "/images/gallery/img-04.jpg",
+//       alt: "image",
+//       orientation: "horizontal",
+//     },
+//     {
+//       src: "/images/gallery/img-05.jpg",
+//       alt: "image",
+//       orientation: "horizontal",
+//     },
+//     {
+//       src: "/images/gallery/img-06.jpg",
+//       alt: "image",
+//       orientation: "vertical",
+//     },
+//     {
+//       src: "/images/gallery/img-07.jpg",
+//       alt: "image",
+//       orientation: "horizontal",
+//     },
+//     {
+//       src: "/images/gallery/img-08.jpg",
+//       alt: "image",
+//       orientation: "vertical",
+//     },
+//     {
+//       src: "/images/gallery/img-09.jpg",
+//       alt: "image",
+//       orientation: "horizontal",
+//     },
+//     {
+//       src: "/images/gallery/img-10.jpg",
+//       alt: "image",
+//       orientation: "horizontal",
+//     },
+//     {
+//       src: "/images/gallery/img-11.jpg",
+//       alt: "image",
+//       orientation: "vertical",
+//     },
+//     {
+//       src: "/images/gallery/img-12.jpg",
+//       alt: "image",
+//       orientation: "horizontal",
+//     },
+//     {
+//       src: "/images/gallery/img-13.jpg",
+//       alt: "image",
+//       orientation: "horizontal",
+//     },
+//     {
+//       src: "/images/gallery/img-14.jpg",
+//       alt: "image",
+//       orientation: "horizontal",
+//     },
+//   ],
+// };
 
-export { person, social, newsletter, home, about, blog, work, gallery };
+export { person, social, newsletter, home, about, blog, work };
