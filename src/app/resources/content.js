@@ -52,7 +52,7 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Mern-Stack Developer</>,
+  headline: <>FullStack Developer</>,
   subline: (
     <>
       I'm Boluwatife, a Full-stack developer with expertise in web development, driven to leverage technical skills to deliver innovative solutions. Proficient in cutting-edge technologies, including UI/UX design, HTML5, CSS3, JavaScript, ReactJS, Next.js, mongoDb, nodejs, Express js, Tailwind css, Bootstrap.
@@ -89,6 +89,20 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
+        company: "inovareun",
+        timeframe: "june 2025 - present",
+        role: "CEO / FOUNDER",
+        achievements: [
+          <>
+          As the CEO and Founder of Inovareun, I lead a forward-thinking SaaS company dedicated to empowering businesses through innovative digital and software solutions. My role involves overseeing strategic direction, driving product development, and building a team focused on delivering high-impact services that solve complex challenges for our clients. At Inovareun, we specialize in creating scalable software products that streamline operations, enhance productivity, and enable sustainable growth for our partners.
+          </>,
+          
+        ],
+        images: [
+         
+        ],
+      },
+      {
         company: "Skyestudio",
         timeframe: "December 2024 - March 2025",
         role: "Frontend Developer",
@@ -110,26 +124,12 @@ const about = {
           },
         ],
       },
-      // {
-      //   company: "Creativ3",
-      //   timeframe: "2018 - 2022",
-      //   role: "Lead Designer",
-      //   achievements: [
-      //     <>
-      //       Developed a design system that unified the brand across multiple platforms, improving
-      //       design consistency by 40%.
-      //     </>,
-      //     <>
-      //       Led a cross-functional team to launch a new product line, contributing to a 15% increase
-      //       in overall company revenue.
-      //     </>,
-      //   ],
-      //   images: [],
-      // },
+     
+    
     ],
   },
   studies: {
-    display: true, // set to false to hide this section
+    display: true, 
     title: "Studies",
     institutions: [
       {
