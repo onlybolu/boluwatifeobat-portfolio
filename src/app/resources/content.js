@@ -8,13 +8,13 @@ const person = {
   },
   role: "Mern-stack Developer",
   avatar: "/images/avatar.jpg",
-  location: "EST", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English"], // optional: Leave the array empty if you don't want to display languages
+  location: "EST", // Expecting the IANA time zone identifier, e.g., &apos;Europe/Vienna&apos;
+  languages: ["English"], // optional: Leave the array empty if you don&apos;t want to display languages
 };
 
 const newsletter = {
   display: true,
-  title: <>Subscribe to {person.firstName}'s Newsletter</>,
+  title: <>Subscribe to {person.firstName}&apos;s Newsletter</>,
   description: (
     <>
       I occasionally write about design, technology, and share thoughts on the intersection of
@@ -55,7 +55,7 @@ const home = {
   headline: <>FullStack Developer</>,
   subline: (
     <>
-      I'm Boluwatife, a Full-stack developer with expertise in web development, driven to leverage technical skills to deliver innovative solutions. Proficient in cutting-edge technologies, including UI/UX design, HTML5, CSS3, JavaScript, ReactJS, Next.js, mongoDb, nodejs, Express js, Tailwind css, Bootstrap.
+      I&apos;m Boluwatife, a Full-stack developer with expertise in web development, driven to leverage technical skills to deliver innovative solutions. Proficient in cutting-edge technologies, including UI/UX design, HTML5, CSS3, JavaScript, ReactJS, Next.js, mongoDb, nodejs, Express js, Tailwind css, Bootstrap.
     </>
   ),
 };
@@ -115,7 +115,7 @@ const about = {
           </>,
         ],
         images: [
-          // optional: leave the array empty if you don't want to display images
+          // optional: leave the array empty if you don&apos;t want to display images
           {
             src: "/images/projects/project-01/cover-01.jpeg",
             alt: "Once UI Project",
@@ -149,7 +149,7 @@ const about = {
       {
         title: "HTML",
         description: <></>,
-        // optional: leave the array empty if you don't want to display images
+        // optional: leave the array empty if you don&apos;t want to display images
         images: [
           // {
           //   src: "/images/projects/project-01/cover-02.jpg",
@@ -168,55 +168,55 @@ const about = {
       {
         title: "Next.js",
         description: <></>,
-        // optional: leave the array empty if you don't want to display images
+        // optional: leave the array empty if you don&apos;t want to display images
         images: [  ],
       },
       {
         title: "React.js",
         description: <></>,
-        // optional: leave the array empty if you don't want to display images
+        // optional: leave the array empty if you don&apos;t want to display images
         images: [  ],
       },
       {
         title: "Javascript",
         description: <></>,
-        // optional: leave the array empty if you don't want to display images
+        // optional: leave the array empty if you don&apos;t want to display images
         images: [  ],
       },
       {
         title: "Tailwind css",
         description: <></>,
-        // optional: leave the array empty if you don't want to display images
+        // optional: leave the array empty if you don&apos;t want to display images
         images: [  ],
       },
       {
         title: "Bootstarp",
         description: <></>,
-        // optional: leave the array empty if you don't want to display images
+        // optional: leave the array empty if you don&apos;t want to display images
         images: [  ],
       },
       {
         title: "CSS",
         description: <></>,
-        // optional: leave the array empty if you don't want to display images
+        // optional: leave the array empty if you don&apos;t want to display images
         images: [  ],
       },
       {
         title: "Express.js",
         description: <></>,
-        // optional: leave the array empty if you don't want to display images
+        // optional: leave the array empty if you don&apos;t want to display images
         images: [  ],
       },
       {
         title: "Node.js",
         description: <></>,
-        // optional: leave the array empty if you don't want to display images
+        // optional: leave the array empty if you don&apos;t want to display images
         images: [  ],
       },
       {
         title: "MongoDB",
         description: <></>,
-        // optional: leave the array empty if you don't want to display images
+        // optional: leave the array empty if you don&apos;t want to display images
         images: [  ],
       },
     ],

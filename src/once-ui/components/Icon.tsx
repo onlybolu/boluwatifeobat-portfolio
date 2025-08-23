@@ -19,8 +19,7 @@ interface IconProps extends React.ComponentProps<typeof Flex> {
   tooltipPosition?: "top" | "bottom" | "left" | "right";
 }
 
-const [isTooltipVisible, setTooltipVisible] = useState(false);
-const [isHover, setIsHover] = useState(false);
+
 const Icon = forwardRef<HTMLDivElement, IconProps>(
   (
     {
@@ -35,6 +34,8 @@ const Icon = forwardRef<HTMLDivElement, IconProps>(
     },
     ref,
   ) => {
+    const [isTooltipVisible, setTooltipVisible] = useState(false);
+    const [isHover, setIsHover] = useState(false);
     const IconComponent: IconType | undefined = iconLibrary[name];
 
     if (!IconComponent) {
