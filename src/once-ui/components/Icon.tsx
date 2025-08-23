@@ -19,6 +19,8 @@ interface IconProps extends React.ComponentProps<typeof Flex> {
   tooltipPosition?: "top" | "bottom" | "left" | "right";
 }
 
+const [isTooltipVisible, setTooltipVisible] = useState(false);
+const [isHover, setIsHover] = useState(false);
 const Icon = forwardRef<HTMLDivElement, IconProps>(
   (
     {
@@ -56,8 +58,7 @@ const Icon = forwardRef<HTMLDivElement, IconProps>(
       colorClass = `${scheme}-on-solid-${weight}`;
     }
 
-    const [isTooltipVisible, setTooltipVisible] = useState(false);
-    const [isHover, setIsHover] = useState(false);
+  
 
     useEffect(() => {
       let timer: NodeJS.Timeout;
